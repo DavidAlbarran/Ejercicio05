@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    CheckBoxListExample()
+                    RadioGroupExample()
                 }
             }
         }
@@ -33,6 +33,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     Ejercicio05Theme {
-        CheckBoxListExample()
+        RadioGroupExample()
     }
 }
